@@ -4,7 +4,7 @@ title: "Generating Fine Art"
 description: "Using deep neural networks to generate paintings of faces."
 comments: true
 github: https://github.com/SamHannat/FineViewer
-tags: Python, Keras & Tensorflow, machine learning, data visualization
+tags: Python, Keras & Tensorflow, JavaScript, Flask, machine learning, data visualization, 
 ---
 
 ### Use this theme as you main site
