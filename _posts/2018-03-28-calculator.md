@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Markdown Cheatsheet Demo"
+title: "Android Calculator"
 comments: true
-description: "Markdown Cheatsheet Demo..."
-keywords: "markdown, typography components, dummy content"
+description: "Simple calculator app for Android."
+github: https://github.com/SamHannat/Calculator
+tags: Java, Android SDK
 ---
 
 ## Typography Elements in One

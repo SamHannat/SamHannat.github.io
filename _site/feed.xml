@@ -5,8 +5,8 @@
     <description>Computer science student and machine learning enthusiast.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 May 2019 21:39:28 -0400</pubDate>
-    <lastBuildDate>Thu, 23 May 2019 21:39:28 -0400</lastBuildDate>
+    <pubDate>Thu, 23 May 2019 21:50:30 -0400</pubDate>
+    <lastBuildDate>Thu, 23 May 2019 21:50:30 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -17,7 +17,7 @@
         <link>http://localhost:4000/2019/flow/</link>
         <guid isPermaLink="true">http://localhost:4000/2019/flow/</guid>
         
-        <category>Flow,</category>
+        <category>Flutter,</category>
         
         <category>Dart,</category>
         
@@ -27,7 +27,7 @@
       </item>
     
       <item>
-        <title>Markdown Cheatsheet Demo</title>
+        <title>Android Calculator</title>
         <description>&lt;h2 id=&quot;typography-elements-in-one&quot;&gt;Typography Elements in One&lt;/h2&gt;
 
 &lt;p&gt;Let’s start with a informative paragraph. &lt;strong&gt;This text is bolded.&lt;/strong&gt; But not this one! &lt;em&gt;How about italic text?&lt;/em&gt; Cool right? Ok, let’s &lt;strong&gt;&lt;em&gt;combine&lt;/em&gt;&lt;/strong&gt; them together. Yeah, that’s right! I have code to highlight, so &lt;code class=&quot;highlighter-rouge&quot;&gt;ThisIsMyCode()&lt;/code&gt;. What a nice! Good people will hyperlink away, so &lt;a href=&quot;#&quot;&gt;here we go&lt;/a&gt; or &lt;a href=&quot;http://www.example.com&quot;&gt;http://www.example.com&lt;/a&gt;.&lt;/p&gt;
@@ -213,40 +213,15 @@ But let's throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;.
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Wed, 30 Dec 2015 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2015/markdown-cheatsheet-demo/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/markdown-cheatsheet-demo/</guid>
+        <pubDate>Wed, 28 Mar 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2018/calculator/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/calculator/</guid>
         
+        <category>Java,</category>
         
-      </item>
-    
-      <item>
-        <title>The quick, brown fox jumps over a lazy dog</title>
-        <description>&lt;p&gt;The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! “Now fax quiz Jack! “ my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk.&lt;/p&gt;
-
-&lt;p&gt;A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight for a quick jump.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Joaquin Phoenix was gazed by MTV for luck. A wizard’s job is to vex chumps quickly in fog. Watch “Jeopardy! “, Alex Trebek’s fun TV quiz game. Woven silk pyjamas exchanged for blue quartz. Brawny gods just flocked up to quiz and vex him.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Adjusting quiver and bow, Zompyc[1] killed the fox. My faxed joke won a pager in the cable TV quiz show. Amazingly few discotheques provide jukeboxes. My girl wove six dozen plaid jackets before she quit. Six big devils from Japan quickly forgot how to waltz.&lt;/p&gt;
-
-&lt;p&gt;Big July earthquakes confound zany experimental vow. Foxy parsons quiz and cajole the lovably dim wiki-girl. Have a pick: twenty six letters - no forcing a jumbled quiz! Crazy Fredericka bought many very exquisite opal jewels.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Sixty zippers were quickly picked from the woven jute bag. A quick movement of the enemy will jeopardize six gunboats. All questions asked by five watch experts amazed the judge. Jack quietly moved up front and seized the big ball of wax.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox.&lt;/p&gt;
-
-&lt;p&gt;Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs!&lt;/p&gt;
-
-&lt;p&gt;“Now fax quiz Jack! “ my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight for a quick jump. Joaquin Phoenix was gazed by MTV&lt;/p&gt;
-</description>
-        <pubDate>Mon, 12 Oct 2015 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2015/the-quick-brown-fox-jumps-over-a-lazy-dog/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/the-quick-brown-fox-jumps-over-a-lazy-dog/</guid>
+        <category>Android</category>
+        
+        <category>SDK</category>
         
         
       </item>
