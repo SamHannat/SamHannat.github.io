@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "How to Download or Use This Theme"
+title: "Generating Fine Art"
+description: "Using deep neural networks to generate paintings of faces."
 comments: true
-description: "How to Download or Use This Theme"
-keywords: "dummy content"
+github: https://github.com/SamHannat/FineViewer
+tags: Python, Keras & Tensorflow, machine learning, data visualization
 ---
 
 ### Use this theme as you main site
