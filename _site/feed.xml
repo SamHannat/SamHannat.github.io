@@ -5,8 +5,8 @@
     <description>Computer science student and machine learning enthusiast.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 May 2019 21:50:30 -0400</pubDate>
-    <lastBuildDate>Thu, 23 May 2019 21:50:30 -0400</lastBuildDate>
+    <pubDate>Tue, 28 May 2019 08:46:55 -0400</pubDate>
+    <lastBuildDate>Tue, 28 May 2019 08:46:55 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -22,6 +22,81 @@
         <category>Dart,</category>
         
         <category>Networking,</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Personal Website</title>
+        <description>&lt;p&gt;Nothing yet&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Dec 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2018/website/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/website/</guid>
+        
+        <category>HTML,</category>
+        
+        <category>CSS,</category>
+        
+        <category>JavaScript,</category>
+        
+        <category>Jekyll</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Predicting Biology with Machine Learning</title>
+        <description>&lt;p&gt;&lt;strong&gt;Over the summer, I had the amazing opportunity of working as a research intern at &lt;a href=&quot;https://mysite.science.uottawa.ca/jlewis/&quot;&gt;Lewis Lab&lt;/a&gt; in the &lt;a href=&quot;http://www.neurodynamic.uottawa.ca/&quot;&gt;Center for Neural Dynamics.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Electric_fish#Weakly_electric_fish&quot;&gt;Weakly Electric Fish&lt;/a&gt; are often studied in neuroscience as their complex nervous system has fascinated many scientists. These types of fish usually live in very turbid and muddy waters.  These species are specially adapted for this environment as they utilize a sense other than their sight to perceive their environment. Through continually generating an electric field around them and by measuring disturbances in that field, the weakly electric fish gain an electric sense.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-goal&quot;&gt;The Goal&lt;/h2&gt;
+&lt;p&gt;Use machine learning tools to determine the type of environment a fish is placed in by tracking its movement.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-project&quot;&gt;The Project&lt;/h2&gt;
+&lt;p&gt;The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! “Now fax quiz Jack! “ my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk.&lt;/p&gt;
+
+&lt;p&gt;A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight for a quick jump.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Joaquin Phoenix was gazed by MTV for luck. A wizard’s job is to vex chumps quickly in fog. Watch “Jeopardy! “, Alex Trebek’s fun TV quiz game. Woven silk pyjamas exchanged for blue quartz. Brawny gods just flocked up to quiz and vex him.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Adjusting quiver and bow, Zompyc[1] killed the fox. My faxed joke won a pager in the cable TV quiz show. Amazingly few discotheques provide jukeboxes. My girl wove six dozen plaid jackets before she quit. Six big devils from Japan quickly forgot how to waltz.&lt;/p&gt;
+
+&lt;p&gt;Big July earthquakes confound zany experimental vow. Foxy parsons quiz and cajole the lovably dim wiki-girl. Have a pick: twenty six letters - no forcing a jumbled quiz! Crazy Fredericka bought many very exquisite opal jewels.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Sixty zippers were quickly picked from the woven jute bag. A quick movement of the enemy will jeopardize six gunboats. All questions asked by five watch experts amazed the judge. Jack quietly moved up front and seized the big ball of wax.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox.&lt;/p&gt;
+
+&lt;p&gt;Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs!&lt;/p&gt;
+
+&lt;p&gt;“Now fax quiz Jack! “ my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight for a quick jump. Joaquin Phoenix was gazed by MTV&lt;/p&gt;
+</description>
+        <pubDate>Wed, 05 Sep 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2018/comput-neuro/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/comput-neuro/</guid>
+        
+        <category>Python,</category>
+        
+        <category>Keras,</category>
+        
+        <category>chaos</category>
+        
+        <category>theory,</category>
+        
+        <category>machine</category>
+        
+        <category>learning,</category>
+        
+        <category>data</category>
+        
+        <category>visualization</category>
         
         
       </item>

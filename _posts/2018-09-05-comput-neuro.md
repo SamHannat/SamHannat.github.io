@@ -1,12 +1,22 @@
 ---
 layout: post
-title: "Computational Neuroscience Project"
+title: "Predicting Biology with Machine Learning"
 comments: true
-description: "Research project under the supervision of John E. Lewis."
+description: "Computational neuroscience project under the supervision of John E. Lewis."
 github: https://github.com/SamHannat/ComputNeuro
 tags: Python, Keras, chaos theory, machine learning, data visualization
 ---
 
+**Over the summer, I had the amazing opportunity of working as a research intern at [Lewis Lab](https://mysite.science.uottawa.ca/jlewis/) in the [Center for Neural Dynamics.](http://www.neurodynamic.uottawa.ca/)**
+
+
+## Background 
+[Weakly Electric Fish](https://en.wikipedia.org/wiki/Electric_fish#Weakly_electric_fish) are often studied in neuroscience as their complex nervous system has fascinated many scientists. These types of fish usually live in very turbid and muddy waters.  These species are specially adapted for this environment as they utilize a sense other than their sight to perceive their environment. Through continually generating an electric field around them and by measuring disturbances in that field, the weakly electric fish gain an electric sense.
+
+## The Goal 
+Use machine learning tools to determine the type of environment a fish is placed in by tracking its movement.
+
+## The Project 
 The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz.
 
 **Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex.**
