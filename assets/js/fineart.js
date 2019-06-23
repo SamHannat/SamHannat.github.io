@@ -3,8 +3,12 @@ const getLatentUrl = host + "randomLatent";
 const getPredictionUrl = host + "predict";
 const getInterpolationUrl = host + "interpolation";
 
-getRandomFace(setLeft);
-getRandomFace(setRight);
+function initialSetup() {
+  getRandomFace(setLeft);
+  getRandomFace(setRight);
+  interpolation(setInterpolation);
+}
+
 function getCookie(name) {
   var value = "; " + document.cookie;
   var parts = value.split("; " + name + "=");
@@ -49,10 +53,10 @@ function setInterpolation(data) {
   $("#interpolation").attr("src", "data:image/png;base64," + data);
 }
 
-function interpolation(callback, n) {
+function interpolation(callback) {
   var latent1 = getCookie("leftlatent");
   var latent2 = getCookie("rightlatent");
-
+  var n = $("#interpolationNum").val();
   $.ajax(getInterpolationUrl,{
       'data': JSON.stringify({"latent1": latent1, "latent2": latent2, "n":n}), 
       'type': 'POST',

@@ -14,10 +14,37 @@ tags: Python, Keras & Tensorflow, JavaScript, Flask, machine learning, data visu
   crossorigin="anonymous"></script>
 
 <script src="{{ base.url | prepend: site.url}}/assets/js/fineart.js" crossorigin="anonymous"></script>
-<button onclick="getRandomFace(setLeft)">Get Random Face</button>
-<img src="" id="leftimage" crossorigin="anonymous">
-<img src="" id="rightimage" crossorigin="anonymous">
-<img src="" id="interpolation" crossorigin="anonymous">
+
+
+<style type="text/css" onload="initialSetup()">
+
+.tg  {border-collapse:collapse;border-spacing:0; border:none !important;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;overflow:hidden;word-break:normal;border:none !important;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;overflow:hidden;word-break:normal;border:none !important;}
+.tg .tg-c3ow{text-align:center;vertical-align:top;border:none !important;}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-c3ow"><img id="leftimage" src=""/></th>
+    <th class="tg-c3ow"><img id="rightimage" src=""/></th>
+  </tr>
+  <tr>
+    <td class="tg-c3ow" colspan="2"><img id="interpolation" src=""/></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><button onclick="getRandomFace(setLeft)">Random Image</button></td>
+    <td class="tg-c3ow"><button onclick="getRandomFace(setRight)">Random Image</button></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow" colspan="2"><button onclick="interpolation(setInterpolation)">Interpolate</button></td>
+  </tr>
+  <tr>
+  	<td class="tg-c3ow" colspan="2">
+  		<input id="interpolationNum" type="number" min="2" max="15" value="10"/>
+  	</td>
+  </tr>
+</table>
+
 ### Use this theme as you main site
 
 - Download or fork the master branch of this theme repo into your GitHub account.
