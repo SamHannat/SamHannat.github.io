@@ -57,7 +57,36 @@ tags: Python, Keras & Tensorflow, JavaScript, Flask, machine learning, data visu
     </td>
   </tr>
   <tr>
-  	<td><input type="range" min="1" max="10" value="5"></td>
+  	<td class="tg-c3ow" >
+  		<select value="10" id="leftdimension" onchange="getScalerValue(setScalerValue, 'left')">
+    		<option>1</option>
+    		<option>2</option>
+    		<option>3</option>
+    		<option>4</option>
+    		<option>5</option>
+    		<option>6</option>
+    		<option>7</option>
+    		<option>8</option>
+    		<option>9</option>
+    		<option>10</option>
+    	</select>
+  		<input id="leftslider" type="range" min="1" max="10" value="5">
+  	</td>
+  	<td class="tg-c3ow" >
+  		<select value="10" id="rightdimension" onchange="getScalerValue(setScalerValue, 'right')">
+    		<option>1</option>
+    		<option>2</option>
+    		<option>3</option>
+    		<option>4</option>
+    		<option>5</option>
+    		<option>6</option>
+    		<option>7</option>
+    		<option>8</option>
+    		<option>9</option>
+    		<option>10</option>
+    	</select>
+  		<input id="rightslider" type="range" min="1" max="10" value="5">
+  	</td>
   </tr>
 </table>
 

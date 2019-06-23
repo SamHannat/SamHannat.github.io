@@ -2,7 +2,7 @@ const host = "http://35.232.244.226:5000/";
 const getLatentUrl = host + "randomLatent";
 const getPredictionUrl = host + "predict";
 const getInterpolationUrl = host + "interpolation";
-const getSliderValue = host + "getSliderValue"
+const getSliderValueUrl = host + "getSliderValue";
 
 function initialSetup() {
   getRandomFace(setLeft);
@@ -25,6 +25,7 @@ function setRight(data, latent) {
 
 function setImage(data, which, latent) {
   document.cookie = which + "latent=" + latent;
+  getScalerValue(setScalerValue, which);
   $("#" + which + "image").attr("src", "data:image/png;base64," + data);
 }
 
@@ -66,6 +67,27 @@ function interpolation(callback) {
       'contentType': 'application/json',//typically 'application/x-www-form-urlencoded', but the service you are calling may expect 'text/json'... check with the service to see what they expect as content-type in the HTTP header.
       success: function (p, status, jqXHR) { 
         callback(p["image"]);
+      },
+    });
+}
+
+function setScalerValue(data, which) {
+  $("#" + which + "slider").val(data);
+}
+
+
+function getScalerValue(callback, which) {
+  var latent = getCookie(which + "latent");
+  var dimension = $("#" + which + "dimension").val();
+
+  $.ajax(getSliderValueUrl,{
+      'data': JSON.stringify({"latent": latent, "dimension":dimension}), 
+      'type': 'POST',
+
+      'processData': false,
+      'contentType': 'application/json',//typically 'application/x-www-form-urlencoded', but the service you are calling may expect 'text/json'... check with the service to see what they expect as content-type in the HTTP header.
+      success: function (p, status, jqXHR) { 
+        callback(p["id"], which);
       },
     });
 }

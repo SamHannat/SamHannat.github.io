@@ -5,8 +5,8 @@
     <description>Computer science student and machine learning enthusiast.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 23 Jun 2019 16:42:48 -0400</pubDate>
-    <lastBuildDate>Sun, 23 Jun 2019 16:42:48 -0400</lastBuildDate>
+    <pubDate>Sun, 23 Jun 2019 17:19:20 -0400</pubDate>
+    <lastBuildDate>Sun, 23 Jun 2019 17:19:20 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -57,7 +57,36 @@
     &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-  	&lt;td&gt;&lt;input type=&quot;range&quot; min=&quot;1&quot; max=&quot;10&quot; value=&quot;5&quot; /&gt;&lt;/td&gt;
+  	&lt;td class=&quot;tg-c3ow&quot;&gt;
+  		&lt;select value=&quot;10&quot; id=&quot;leftdimension&quot; onchange=&quot;getScalerValue(setScalerValue, 'left')&quot;&gt;
+    		&lt;option&gt;1&lt;/option&gt;
+    		&lt;option&gt;2&lt;/option&gt;
+    		&lt;option&gt;3&lt;/option&gt;
+    		&lt;option&gt;4&lt;/option&gt;
+    		&lt;option&gt;5&lt;/option&gt;
+    		&lt;option&gt;6&lt;/option&gt;
+    		&lt;option&gt;7&lt;/option&gt;
+    		&lt;option&gt;8&lt;/option&gt;
+    		&lt;option&gt;9&lt;/option&gt;
+    		&lt;option&gt;10&lt;/option&gt;
+    	&lt;/select&gt;
+  		&lt;input id=&quot;leftslider&quot; type=&quot;range&quot; min=&quot;1&quot; max=&quot;10&quot; value=&quot;5&quot; /&gt;
+  	&lt;/td&gt;
+  	&lt;td class=&quot;tg-c3ow&quot;&gt;
+  		&lt;select value=&quot;10&quot; id=&quot;rightdimension&quot; onchange=&quot;getScalerValue(setScalerValue, 'right')&quot;&gt;
+    		&lt;option&gt;1&lt;/option&gt;
+    		&lt;option&gt;2&lt;/option&gt;
+    		&lt;option&gt;3&lt;/option&gt;
+    		&lt;option&gt;4&lt;/option&gt;
+    		&lt;option&gt;5&lt;/option&gt;
+    		&lt;option&gt;6&lt;/option&gt;
+    		&lt;option&gt;7&lt;/option&gt;
+    		&lt;option&gt;8&lt;/option&gt;
+    		&lt;option&gt;9&lt;/option&gt;
+    		&lt;option&gt;10&lt;/option&gt;
+    	&lt;/select&gt;
+  		&lt;input id=&quot;rightslider&quot; type=&quot;range&quot; min=&quot;1&quot; max=&quot;10&quot; value=&quot;5&quot; /&gt;
+  	&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 
