@@ -16,6 +16,8 @@ tags: Python, Keras & Tensorflow, JavaScript, Flask, machine learning, data visu
 <script src="{{ base.url | prepend: site.url}}/assets/js/fineart.js" crossorigin="anonymous"></script>
 <button onclick="getRandomFace(setLeft)">Get Random Face</button>
 <img src="" id="leftimage" crossorigin="anonymous">
+<img src="" id="rightimage" crossorigin="anonymous">
+<img src="" id="interpolation" crossorigin="anonymous">
 ### Use this theme as you main site
 
 - Download or fork the master branch of this theme repo into your GitHub account.
