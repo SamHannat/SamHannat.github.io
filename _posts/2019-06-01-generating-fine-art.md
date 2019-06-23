@@ -22,6 +22,7 @@ tags: Python, Keras & Tensorflow, JavaScript, Flask, machine learning, data visu
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;overflow:hidden;word-break:normal;border:none !important;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;overflow:hidden;word-break:normal;border:none !important;}
 .tg .tg-c3ow{text-align:center;vertical-align:top;border:none !important;}
+#interpolationNum {display:inline-block;width:4em; padding-left:5em;}
 </style>
 <table class="tg">
   <tr>
@@ -36,12 +37,27 @@ tags: Python, Keras & Tensorflow, JavaScript, Flask, machine learning, data visu
     <td class="tg-c3ow"><button onclick="getRandomFace(setRight)">Random Image</button></td>
   </tr>
   <tr>
-    <td class="tg-c3ow" colspan="2"><button onclick="interpolation(setInterpolation)">Interpolate</button></td>
+    <td class="tg-c3ow" colspan="2">
+    	<button onclick="interpolation(setInterpolation)">Interpolate</button> 
+    	# of Images: <select value="10" id="interpolationNum">
+    		<option>3</option>
+    		<option>4</option>
+    		<option>5</option>
+    		<option>6</option>
+    		<option>7</option>
+    		<option>8</option>
+    		<option>9</option>
+    		<option selected>10</option>
+    		<option>11</option>
+    		<option>12</option>
+    		<option>13</option>
+    		<option>14</option>
+    		<option>15</option>
+    	</select>
+    </td>
   </tr>
   <tr>
-  	<td class="tg-c3ow" colspan="2">
-  		<input id="interpolationNum" type="number" min="2" max="15" value="10"/>
-  	</td>
+  	<td><input type="range" min="1" max="10" value="5"></td>
   </tr>
 </table>
 

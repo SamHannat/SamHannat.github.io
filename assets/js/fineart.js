@@ -2,6 +2,7 @@ const host = "http://35.232.244.226:5000/";
 const getLatentUrl = host + "randomLatent";
 const getPredictionUrl = host + "predict";
 const getInterpolationUrl = host + "interpolation";
+const getSliderValue = host + "getSliderValue"
 
 function initialSetup() {
   getRandomFace(setLeft);
