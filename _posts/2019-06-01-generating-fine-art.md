@@ -6,7 +6,16 @@ comments: true
 github: https://github.com/SamHannat/FineViewer
 tags: Python, Keras & Tensorflow, JavaScript, Flask, machine learning, data visualization, 
 ---
+ 
 
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+<script src="{{ base.url | prepend: site.url}}/assets/js/fineart.js" crossorigin="anonymous"></script>
+<button onclick="getRandomFace(setLeft)">Get Random Face</button>
+<img src="" id="leftimage" crossorigin="anonymous">
 ### Use this theme as you main site
 
 - Download or fork the master branch of this theme repo into your GitHub account.

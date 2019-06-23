@@ -5,9 +5,63 @@
     <description>Computer science student and machine learning enthusiast.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 28 May 2019 08:46:55 -0400</pubDate>
-    <lastBuildDate>Tue, 28 May 2019 08:46:55 -0400</lastBuildDate>
+    <pubDate>Sat, 22 Jun 2019 22:50:01 -0400</pubDate>
+    <lastBuildDate>Sat, 22 Jun 2019 22:50:01 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Generating Fine Art</title>
+        <description>&lt;script src=&quot;https://code.jquery.com/jquery-3.4.1.min.js&quot; integrity=&quot;sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;http://localhost:4000/assets/js/fineart.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;getRandomFace(setLeft)&quot;&gt;Get Random Face&lt;/button&gt;
+&lt;img src=&quot;&quot; id=&quot;leftimage&quot; crossorigin=&quot;anonymous&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;use-this-theme-as-you-main-site&quot;&gt;Use this theme as you main site&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Download or fork the master branch of this theme repo into your GitHub account.&lt;/li&gt;
+  &lt;li&gt;Rename the repo into something like &lt;code class=&quot;highlighter-rouge&quot;&gt;your_username.github.io&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file to your preferences.&lt;/li&gt;
+  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;about.md&lt;/code&gt; file for your About page.&lt;/li&gt;
+  &lt;li&gt;Inside &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder, there are sample of blog entries. Learn from it and start yours.&lt;/li&gt;
+  &lt;li&gt;Now, visit &lt;code class=&quot;highlighter-rouge&quot;&gt;http://your_username.github.io&lt;/code&gt; and you should see your blog running.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;use-this-theme-as-a-project-page&quot;&gt;Use this theme as a project page&lt;/h3&gt;
+
+&lt;p&gt;If you want to use this theme as a project page blog, you don’t need to rename the theme repo into &lt;code class=&quot;highlighter-rouge&quot;&gt;your_username.github.io&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;All you need to do, open &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file, change &lt;code class=&quot;highlighter-rouge&quot;&gt;baseurl&lt;/code&gt; to your project name which contains this theme, e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;baseurl: &quot;/myproject&quot;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;cheers&quot;&gt;Cheers!&lt;/h4&gt;
+</description>
+        <pubDate>Sat, 01 Jun 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019/generating-fine-art/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/generating-fine-art/</guid>
+        
+        <category>Python,</category>
+        
+        <category>Keras</category>
+        
+        <category>&amp;</category>
+        
+        <category>Tensorflow,</category>
+        
+        <category>JavaScript,</category>
+        
+        <category>Flask,</category>
+        
+        <category>machine</category>
+        
+        <category>learning,</category>
+        
+        <category>data</category>
+        
+        <category>visualization,</category>
+        
+        
+      </item>
     
       <item>
         <title>Flow</title>
