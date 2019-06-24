@@ -8,6 +8,8 @@ const changeLatentUrl = host + "changeLatent";
 function initialSetup() {
   getRandomFace(setLeft);
   getRandomFace(setRight);
+  setValues("left");
+  setValues("right");
   interpolation(setInterpolation);
 }
 
@@ -16,6 +18,19 @@ function getCookie(name) {
   var parts = value.split("; " + name + "=");
   if (parts.length == 2) return parts.pop().split(";").shift();
 } 
+
+function setValues(which) {
+  var select = $("#"+which+"dimension");
+
+  $.each([...Array(126).keys()], function(key, value) {
+    if(key == 0) {
+      select.append($("<option selected></option>").attr("value", key).text(value));
+    } else {
+      select.append($("<option></option>").attr("value", key).text(value));
+    }
+    
+  });
+}
 
 function setLeft(data, latent) {
   setImage(data, "left", latent);
