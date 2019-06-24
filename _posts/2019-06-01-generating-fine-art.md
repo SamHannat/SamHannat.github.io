@@ -70,7 +70,7 @@ tags: Python, Keras & Tensorflow, JavaScript, Flask, machine learning, data visu
     		<option>9</option>
     		<option>10</option>
     	</select>
-  		<input id="leftslider" type="range" min="1" max="10" value="5">
+  		<input id="leftslider" type="range" min="1" max="10" value="5" onchange="changeLatent(setLatent, 'left')">
   	</td>
   	<td class="tg-c3ow" >
   		<select value="10" id="rightdimension" onchange="getScalerValue(setScalerValue, 'right')">
@@ -85,7 +85,7 @@ tags: Python, Keras & Tensorflow, JavaScript, Flask, machine learning, data visu
     		<option>9</option>
     		<option>10</option>
     	</select>
-  		<input id="rightslider" type="range" min="1" max="10" value="5">
+  		<input id="rightslider" type="range" min="1" max="10" value="5" onchange="changeLatent(setLatent, 'right')">
   	</td>
   </tr>
 </table>
