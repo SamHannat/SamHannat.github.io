@@ -5,12 +5,12 @@
     <description>Computer science student and machine learning enthusiast.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Jun 2019 17:55:55 -0400</pubDate>
-    <lastBuildDate>Mon, 24 Jun 2019 17:55:55 -0400</lastBuildDate>
+    <pubDate>Sun, 30 Jun 2019 19:12:43 -0400</pubDate>
+    <lastBuildDate>Sun, 30 Jun 2019 19:12:43 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Generating Fine Art</title>
+        <title>Deepfake Art</title>
         <description>&lt;script src=&quot;https://code.jquery.com/jquery-3.4.1.min.js&quot; integrity=&quot;sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
 
 &lt;script src=&quot;http://localhost:4000/assets/js/fineart.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
@@ -22,6 +22,10 @@
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;overflow:hidden;word-break:normal;border:none !important;}
 .tg .tg-c3ow{text-align:center;vertical-align:top;border:none !important;}
 #interpolationNum {display:inline-block;width:4em; padding-left:5em;}
+#leftdimension, #rightdimension, #leftslider, #rightslider {display: inline-block; margin-left:1em;}
+#leftslider, #rightslider {
+  margin-left:2em;
+}
 &lt;/style&gt;
 
 &lt;table class=&quot;tg&quot;&gt;
@@ -57,12 +61,12 @@
     &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-  	&lt;td class=&quot;tg-c3ow&quot;&gt;
+  	&lt;td class=&quot;tg-c3ow&quot;&gt;&lt;span&gt;Latent Dimension&lt;/span&gt;
   		&lt;select value=&quot;10&quot; id=&quot;leftdimension&quot; onchange=&quot;getScalerValue(setScalerValue, 'left')&quot;&gt;
     	&lt;/select&gt;
   		&lt;input id=&quot;leftslider&quot; type=&quot;range&quot; min=&quot;1&quot; max=&quot;10&quot; value=&quot;5&quot; onchange=&quot;changeLatent(setLatent, 'left')&quot; /&gt;
   	&lt;/td&gt;
-  	&lt;td class=&quot;tg-c3ow&quot;&gt;
+  	&lt;td class=&quot;tg-c3ow&quot;&gt;&lt;span&gt;Latent Dimension&lt;/span&gt;
   		&lt;select value=&quot;10&quot; id=&quot;rightdimension&quot; onchange=&quot;getScalerValue(setScalerValue, 'right')&quot;&gt;
     	&lt;/select&gt;
   		&lt;input id=&quot;rightslider&quot; type=&quot;range&quot; min=&quot;1&quot; max=&quot;10&quot; value=&quot;5&quot; onchange=&quot;changeLatent(setLatent, 'right')&quot; /&gt;

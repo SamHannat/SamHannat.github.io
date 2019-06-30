@@ -1,4 +1,4 @@
-const host = "http://35.232.244.226:5000/";
+const host = "https://184.73.117.234/";
 const getLatentUrl = host + "randomLatent";
 const getPredictionUrl = host + "predict";
 const getInterpolationUrl = host + "interpolation";
@@ -10,7 +10,6 @@ function initialSetup() {
   getRandomFace(setRight);
   setValues("left");
   setValues("right");
-  interpolation(setInterpolation);
 }
 
 function getCookie(name) {

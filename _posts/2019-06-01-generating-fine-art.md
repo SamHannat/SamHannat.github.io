@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Generating Fine Art"
+title: "Deepfake Art"
 description: "Using deep neural networks to generate paintings of faces."
 comments: true
 github: https://github.com/SamHannat/FineViewer
@@ -23,6 +23,10 @@ tags: Python, Keras & Tensorflow, JavaScript, Flask, machine learning, data visu
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;overflow:hidden;word-break:normal;border:none !important;}
 .tg .tg-c3ow{text-align:center;vertical-align:top;border:none !important;}
 #interpolationNum {display:inline-block;width:4em; padding-left:5em;}
+#leftdimension, #rightdimension, #leftslider, #rightslider {display: inline-block; margin-left:1em;}
+#leftslider, #rightslider {
+  margin-left:2em;
+}
 </style>
 <table class="tg">
   <tr>
@@ -57,12 +61,12 @@ tags: Python, Keras & Tensorflow, JavaScript, Flask, machine learning, data visu
     </td>
   </tr>
   <tr>
-  	<td class="tg-c3ow" >
+  	<td class="tg-c3ow" ><span>Latent Dimension</span>
   		<select value="10" id="leftdimension" onchange="getScalerValue(setScalerValue, 'left')">
     	</select>
   		<input id="leftslider" type="range" min="1" max="10" value="5" onchange="changeLatent(setLatent, 'left')">
   	</td>
-  	<td class="tg-c3ow" >
+  	<td class="tg-c3ow" ><span>Latent Dimension</span>
   		<select value="10" id="rightdimension" onchange="getScalerValue(setScalerValue, 'right')">
     	</select>
   		<input id="rightslider" type="range" min="1" max="10" value="5" onchange="changeLatent(setLatent, 'right')">
