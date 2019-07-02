@@ -5,15 +5,15 @@
     <description>Computer science student and machine learning enthusiast.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 Jul 2019 07:25:09 -0400</pubDate>
-    <lastBuildDate>Tue, 02 Jul 2019 07:25:09 -0400</lastBuildDate>
+    <pubDate>Tue, 02 Jul 2019 08:02:06 -0400</pubDate>
+    <lastBuildDate>Tue, 02 Jul 2019 08:02:06 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>DeepFake Art</title>
         <description>&lt;script src=&quot;https://code.jquery.com/jquery-3.4.1.min.js&quot; integrity=&quot;sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
 
-&lt;script src=&quot;http://localhost:4000/assets/js/fineart.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/samhannat/samhannat.github.io@master/assets/js/fineart.js&quot; crossorigin=&quot;anonymous&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
 
 &lt;style type=&quot;text/css&quot; onload=&quot;initialSetup()&quot;&gt;
 
