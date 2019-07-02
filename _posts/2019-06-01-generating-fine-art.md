@@ -13,7 +13,7 @@ tags: Python, Keras & Tensorflow, JavaScript, Flask, Machine Learning, Data Visu
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
 
-<script src="{{ base.url | prepend: site.url}}/assets/js/fineart.js" crossorigin="anonymous"></script>
+<script src="https://raw.githubusercontent.com/SamHannat/SamHannat.github.io/master/assets/js/fineart.js" crossorigin="anonymous"></script>
 
 
 <style type="text/css" onload="initialSetup()">
