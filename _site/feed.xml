@@ -5,12 +5,12 @@
     <description>Computer science student and machine learning enthusiast.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 30 Jun 2019 19:12:43 -0400</pubDate>
-    <lastBuildDate>Sun, 30 Jun 2019 19:12:43 -0400</lastBuildDate>
+    <pubDate>Tue, 02 Jul 2019 07:25:09 -0400</pubDate>
+    <lastBuildDate>Tue, 02 Jul 2019 07:25:09 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Deepfake Art</title>
+        <title>DeepFake Art</title>
         <description>&lt;script src=&quot;https://code.jquery.com/jquery-3.4.1.min.js&quot; integrity=&quot;sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
 
 &lt;script src=&quot;http://localhost:4000/assets/js/fineart.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
@@ -37,8 +37,8 @@
     &lt;td class=&quot;tg-c3ow&quot; colspan=&quot;2&quot;&gt;&lt;img id=&quot;interpolation&quot; src=&quot;&quot; /&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td class=&quot;tg-c3ow&quot;&gt;&lt;button onclick=&quot;getRandomFace(setLeft)&quot;&gt;Random Image&lt;/button&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-c3ow&quot;&gt;&lt;button onclick=&quot;getRandomFace(setRight)&quot;&gt;Random Image&lt;/button&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-c3ow&quot;&gt;&lt;button onclick=&quot;getRandomFace(setLeft)&quot;&gt;Generate Face&lt;/button&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-c3ow&quot;&gt;&lt;button onclick=&quot;getRandomFace(setRight)&quot;&gt;Generate Face&lt;/button&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td class=&quot;tg-c3ow&quot; colspan=&quot;2&quot;&gt;
@@ -74,16 +74,7 @@
   &lt;/tr&gt;
 &lt;/table&gt;
 
-&lt;h3 id=&quot;use-this-theme-as-you-main-site&quot;&gt;Use this theme as you main site&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Download or fork the master branch of this theme repo into your GitHub account.&lt;/li&gt;
-  &lt;li&gt;Rename the repo into something like &lt;code class=&quot;highlighter-rouge&quot;&gt;your_username.github.io&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file to your preferences.&lt;/li&gt;
-  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;about.md&lt;/code&gt; file for your About page.&lt;/li&gt;
-  &lt;li&gt;Inside &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder, there are sample of blog entries. Learn from it and start yours.&lt;/li&gt;
-  &lt;li&gt;Now, visit &lt;code class=&quot;highlighter-rouge&quot;&gt;http://your_username.github.io&lt;/code&gt; and you should see your blog running.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Everyone has heard about the buzz generated from deepfakes, artifical images generated that could be mistaken for real ones.&lt;/p&gt;
 
 &lt;h3 id=&quot;use-this-theme-as-a-project-page&quot;&gt;Use this theme as a project page&lt;/h3&gt;
 
@@ -109,13 +100,13 @@
         
         <category>Flask,</category>
         
-        <category>machine</category>
+        <category>Machine</category>
         
-        <category>learning,</category>
+        <category>Learning,</category>
         
-        <category>data</category>
+        <category>Data</category>
         
-        <category>visualization,</category>
+        <category>Visualization</category>
         
         
       </item>

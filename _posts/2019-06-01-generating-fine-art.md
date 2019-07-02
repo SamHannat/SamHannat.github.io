@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Deepfake Art"
+title: "DeepFake Art"
 description: "Using deep neural networks to generate paintings of faces."
 comments: true
 github: https://github.com/SamHannat/FineViewer
-tags: Python, Keras & Tensorflow, JavaScript, Flask, machine learning, data visualization, 
+tags: Python, Keras & Tensorflow, JavaScript, Flask, Machine Learning, Data Visualization 
 ---
  
 
@@ -37,8 +37,8 @@ tags: Python, Keras & Tensorflow, JavaScript, Flask, machine learning, data visu
     <td class="tg-c3ow" colspan="2"><img id="interpolation" src=""/></td>
   </tr>
   <tr>
-    <td class="tg-c3ow"><button onclick="getRandomFace(setLeft)">Random Image</button></td>
-    <td class="tg-c3ow"><button onclick="getRandomFace(setRight)">Random Image</button></td>
+    <td class="tg-c3ow"><button onclick="getRandomFace(setLeft)">Generate Face</button></td>
+    <td class="tg-c3ow"><button onclick="getRandomFace(setRight)">Generate Face</button></td>
   </tr>
   <tr>
     <td class="tg-c3ow" colspan="2">
@@ -74,14 +74,8 @@ tags: Python, Keras & Tensorflow, JavaScript, Flask, machine learning, data visu
   </tr>
 </table>
 
-### Use this theme as you main site
+Everyone has heard about the buzz generated from deepfakes, artifical images generated that could be mistaken for real ones. 
 
-- Download or fork the master branch of this theme repo into your GitHub account.
-- Rename the repo into something like `your_username.github.io`.
-- Edit `_config.yml` file to your preferences.
-- Edit `about.md` file for your About page.
-- Inside `_posts` folder, there are sample of blog entries. Learn from it and start yours.
-- Now, visit `http://your_username.github.io` and you should see your blog running.
 
 ### Use this theme as a project page
 
