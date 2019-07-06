@@ -5,8 +5,8 @@
     <description>Computer science student and machine learning enthusiast.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 06 Jul 2019 19:21:10 -0400</pubDate>
-    <lastBuildDate>Sat, 06 Jul 2019 19:21:10 -0400</lastBuildDate>
+    <pubDate>Sat, 06 Jul 2019 19:23:38 -0400</pubDate>
+    <lastBuildDate>Sat, 06 Jul 2019 19:23:38 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -199,46 +199,6 @@ Using Keras, I built a VAE with an input shape of 64x64 with a latent dimension 
       </item>
     
       <item>
-        <title>Flow</title>
-        <description>&lt;p&gt;If you think that you’re going to have a guest post… take a look on this post sample. Just add &lt;code class=&quot;highlighter-rouge&quot;&gt;author: GuestName&lt;/code&gt; to the YAML front matter. Then, the &lt;strong&gt;GuestName&lt;/strong&gt; will be appear on the next of post date. Oh, the guest name will be automatically uppercase.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 01 Apr 2019 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2019/flow/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/flow/</guid>
-        
-        <category>Flutter,</category>
-        
-        <category>Dart,</category>
-        
-        <category>Networking,</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Personal Website</title>
-        <description>&lt;p&gt;Woah! This is pretty meta.&lt;/p&gt;
-
-&lt;p&gt;This website was written using Jekyll. The static pages were written in a combination of Markdown, HTML and CSS.&lt;/p&gt;
-
-&lt;p&gt;All the interactive portions of the website (eg, &lt;a href=&quot;http://samhannat.com/2019/generating-fine-art/&quot;&gt;DeepFake Art&lt;/a&gt;) are written using JS and JQuery.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 01 Dec 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2018/website/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/website/</guid>
-        
-        <category>HTML,</category>
-        
-        <category>CSS,</category>
-        
-        <category>JavaScript,</category>
-        
-        <category>Jekyll</category>
-        
-        
-      </item>
-    
-      <item>
         <title>Predicting Biology with Machine Learning</title>
         <description>&lt;p&gt;&lt;strong&gt;Over the summer, I had the amazing opportunity of working as a research intern at &lt;a href=&quot;https://mysite.science.uottawa.ca/jlewis/&quot;&gt;Lewis Lab&lt;/a&gt; in the &lt;a href=&quot;http://www.neurodynamic.uottawa.ca/&quot;&gt;Center for Neural Dynamics.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
@@ -271,9 +231,9 @@ Using Keras, I built a VAE with an input shape of 64x64 with a latent dimension 
 
 &lt;p&gt;“Now fax quiz Jack! “ my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight for a quick jump. Joaquin Phoenix was gazed by MTV&lt;/p&gt;
 </description>
-        <pubDate>Wed, 05 Sep 2018 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2018/comput-neuro/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/comput-neuro/</guid>
+        <pubDate>Wed, 01 May 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019/comput-neuro/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/comput-neuro/</guid>
         
         <category>Python,</category>
         
@@ -290,6 +250,23 @@ Using Keras, I built a VAE with an input shape of 64x64 with a latent dimension 
         <category>data</category>
         
         <category>visualization</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Flow</title>
+        <description>&lt;p&gt;If you think that you’re going to have a guest post… take a look on this post sample. Just add &lt;code class=&quot;highlighter-rouge&quot;&gt;author: GuestName&lt;/code&gt; to the YAML front matter. Then, the &lt;strong&gt;GuestName&lt;/strong&gt; will be appear on the next of post date. Oh, the guest name will be automatically uppercase.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Apr 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019/flow/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/flow/</guid>
+        
+        <category>Flutter,</category>
+        
+        <category>Dart,</category>
+        
+        <category>Networking,</category>
         
         
       </item>
@@ -490,6 +467,29 @@ But let's throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;.
         <category>Android</category>
         
         <category>SDK</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Personal Website</title>
+        <description>&lt;p&gt;Woah! This is pretty meta.&lt;/p&gt;
+
+&lt;p&gt;This website was written using Jekyll. The static pages were written in a combination of Markdown, HTML and CSS.&lt;/p&gt;
+
+&lt;p&gt;All the interactive portions of the website (eg, &lt;a href=&quot;http://samhannat.com/2019/generating-fine-art/&quot;&gt;DeepFake Art&lt;/a&gt;) are written using JS and JQuery.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Dec 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2017/website/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/website/</guid>
+        
+        <category>HTML,</category>
+        
+        <category>CSS,</category>
+        
+        <category>JavaScript,</category>
+        
+        <category>Jekyll</category>
         
         
       </item>
