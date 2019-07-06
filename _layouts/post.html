@@ -1,14 +1,25 @@
 ---
 layout: default
 ---
-
+<style>
+  h1.post-title {
+    display:inline-block;
+    margin-left:-0.1em;
+    padding-right:1em;
+  }
+  a#github {
+    transition: none;
+  }
+  a#github:hover{
+      border: none !important;
+  }
+  a#github:focus{
+      border: none !important;
+  }
+</style>
 <article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
-    <span class="post-meta">
-    	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> 
-
-    </span>
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1><span class="post-meta"><a  id="github" href="{{ post.github }}" target="_blank">{% octicon mark-github class:"light" %}</a></span>
   </header>
   <div class="post-content" itemprop="articleBody">
     {{ content }}
