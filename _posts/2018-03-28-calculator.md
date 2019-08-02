@@ -2,7 +2,7 @@
 layout: post
 title: "Android Calculator"
 comments: true
-description: "Simple calculator app for Android."
+description: "Simple calculator app for Android"
 github: https://github.com/SamHannat/Calculator
 tags: Android SDK, Java
 ---
