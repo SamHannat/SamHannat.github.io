@@ -1,4 +1,4 @@
-const host = "http://samhannat.us-east-2.elasticbeanstalk.com/";
+const host = "https://api.samhannat.com/";
 const getLatentUrl = host + "randomLatent";
 const getPredictionUrl = host + "predict";
 const getInterpolationUrl = host + "interpolation";

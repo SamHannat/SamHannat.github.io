@@ -13,8 +13,7 @@ tags: Python, Keras & Tensorflow, JavaScript, Flask, AWS, Docker
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
 
-<script src="https://cdn.jsdelivr.net/gh/samhannat/samhannat.github.io@master/assets/js/fineart.js" crossorigin="anonymous" type="text/javascript"></script>
-
+  <script type="text/javascript" src="{{base.url | prepend:site.url}}/assets/js/fineart.js"></script>
 
 <style type="text/css" onload="initialSetup()">
 
@@ -22,13 +21,18 @@ tags: Python, Keras & Tensorflow, JavaScript, Flask, AWS, Docker
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;overflow:hidden;word-break:normal;border:none !important;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;overflow:hidden;word-break:normal;border:none !important;}
 .tg .tg-c3ow{text-align:center;vertical-align:top;border:none !important;}
-#interpolationNum {display:inline-block;width:4em; padding-left:5em;}
+#interpolationNum {display:inline-block;}
 #leftdimension, #rightdimension, #leftslider, #rightslider {display: inline-block; margin-left:1em;}
 #leftslider, #rightslider {
   margin-left:2em;
 }
 #leftimage, #rightimage {
-  width:25%;
+  width:40%;
+}
+@media only screen and (max-width: 800px) {
+  #leftimage, #rightimage {
+  width:50%;
+}
 }
 </style>
 
