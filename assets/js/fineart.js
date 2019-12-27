@@ -1,4 +1,4 @@
-const host = "https://api.samhannat.com/";
+const host = "https://cors-anywhere.herokuapp.com/https://api.samhannat.com/";
 const getLatentUrl = host + "randomLatent";
 const getPredictionUrl = host + "predict";
 const getInterpolationUrl = host + "interpolation";
